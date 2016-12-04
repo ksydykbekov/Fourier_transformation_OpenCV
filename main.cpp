@@ -10,7 +10,7 @@ int main(int argc, char ** argv)
 {
     //const char* filename = argc >=2 ? argv[1] : "lena.jpg";
 
-    Mat I = imread("/home/kama/lena.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+    Mat I = imread("/home/your_login/lena.jpg", CV_LOAD_IMAGE_GRAYSCALE);
     if( I.empty())
         return -1;
 
